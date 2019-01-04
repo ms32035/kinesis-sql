@@ -19,18 +19,20 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.apache.spark</groupId>
-    <artifactId>spark-parent_2.11</artifactId>
+    <artifactId>spark-parent_2.12</artifactId>
     <version>2.4.0</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
   <!-- TODO check if we  have to worry about ASL license in new code -->
-  <artifactId>spark-sql-kinesis_2.11</artifactId>
+  <artifactId>spark-sql-kinesis_2.12</artifactId>
   <packaging>jar</packaging>
   <name>Kinesis Integration for Structured Streaming</name>
 
   <properties>
     <sbt.project.name>sql-kinesis</sbt.project.name>
+    <scala.version>2.12.8</scala.version>
+    <scala.binary.version>2.12</scala.binary.version>
   </properties>
 
   <dependencies>
